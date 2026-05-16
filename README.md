@@ -25,21 +25,15 @@ lib/
     ├── home_screen.dart           # Halaman Home berisi list produk dari API & tombol cart
     ├── detail_screen.dart         # Halaman Detail Produk terkait info produk, qty, add to cart
     ├── cart_screen.dart           # Halaman Keranjang berisi list item cart per user, hapus item
-    └── profile_screen.dart      # Halaman Profile berisi info user, kesan & pesan, dan tombol logout
+    └── profile_screen.dart        # Halaman Profile berisi info user, kesan & pesan, dan tombol logout
 
 ## Fitur Aplikasi
 
-1. **Login** - Username bebas, password wajib NIM (123230145). Username disimpan di SharedPreferences.
-2. **Session Persistence** - Setelah login, user tidak perlu login lagi saat membuka ulang aplikasi selama user belum logout.
-3. **Bottom Navigation** - 2 tab: Home dan Profile.
-4. **Home** - Menampilkan greeting username, tombol cart, dan list produk dari API.
-5. **Detail Produk** - Menampilkan info lengkap produk, fitur tambah/kurangi quantity, dan tombol Add to Cart.
-6. **Keranjang Belanja** - Menampilkan item cart per user, tombol hapus per item, dan total harga.
-7. **Profile** - Menampilkan username, kesan & pesan, dan tombol logout.
-8. **In-App Top Notification** - Notifikasi pop-up custom dari atas layar saat menambahkan atau menghapus produk dari keranjang.
-
-## Library yang Digunakan
-
-- **hive** & **hive_flutter** - Local database untuk menyimpan data cart
-- **shared_preferences** - Menyimpan session login
-- **http** - HTTP request ke API eksternal
+1. Login - Username bebas, password wajib NIM (123230145). Username disimpan di SharedPreferences.
+2. Session Persistence - Setelah login, user tidak perlu login lagi saat membuka ulang aplikasi selama user belum logout.
+3. Bottom Navigation - 2 tab: Home dan Profile.
+4. Home - Menampilkan greeting username, tombol cart, dan list produk dari API.
+5. Detail Produk - Menampilkan info lengkap produk, fitur tambah/kurangi quantity, dan tombol Add to Cart.
+6. Keranjang Belanja - Menampilkan item cart per user, tombol hapus per item, dan total harga.
+7. Profile - Menampilkan username, kesan & pesan, dan tombol logout.
+8. In-App Top Notification - Notifikasi pop-up custom dari atas layar saat menambahkan atau menghapus produk dari keranjang.
