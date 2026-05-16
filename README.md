@@ -9,6 +9,7 @@ Aplikasi Toko Online - Latihan Responsi Praktikum TPM IF-C
 Aplikasi toko online sederhana yang menampilkan produk dari API eksternal (https://dummyjson.com/products). User dapat login, melihat daftar produk, melihat detail produk, menambahkan produk ke keranjang belanja, dan logout.
 
 ## Struktur Folder Project
+```
 lib/
 ├── main.dart                      # Entry point aplikasi, inisialisasi Hive & cek session login
 ├── models/
@@ -24,6 +25,7 @@ lib/
     ├── detail_screen.dart         # Halaman Detail Produk terkait info produk, qty, add to cart
     ├── cart_screen.dart           # Halaman Keranjang berisi list item cart per user, hapus item
     └── profile_screen.dart        # Halaman Profile berisi info user, kesan & pesan, dan tombol logout
+```
 
 ## Fitur Aplikasi
 
